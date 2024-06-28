@@ -1,0 +1,9 @@
+#imgen utilizada
+FROM: node:22 
+
+WORDIR /app
+
+COPY..
+run npm install 
+
+CMD ["node","app.js"]
